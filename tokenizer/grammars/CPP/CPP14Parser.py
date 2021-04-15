@@ -1,4 +1,4 @@
-# Generated from CPP14.g4 by ANTLR 4.8
+# Generated from CPP14.g4 by ANTLR 4.9.2
 # encoding: utf-8
 from antlr4 import *
 from io import StringIO
@@ -1870,7 +1870,7 @@ class CPP14Parser ( Parser ):
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
-        self.checkVersion("4.8")
+        self.checkVersion("4.9.2")
         self._interp = ParserATNSimulator(self, self.atn, self.decisionsToDFA, self.sharedContextCache)
         self._predicates = None
 
@@ -1878,6 +1878,7 @@ class CPP14Parser ( Parser ):
 
 
     class TranslationunitContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -1931,6 +1932,7 @@ class CPP14Parser ( Parser ):
 
 
     class PrimaryexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2025,6 +2027,7 @@ class CPP14Parser ( Parser ):
 
 
     class IdexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2083,6 +2086,7 @@ class CPP14Parser ( Parser ):
 
 
     class UnqualifiedidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2197,6 +2201,7 @@ class CPP14Parser ( Parser ):
 
 
     class QualifiedidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2256,6 +2261,7 @@ class CPP14Parser ( Parser ):
 
 
     class NestednamespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2404,6 +2410,7 @@ class CPP14Parser ( Parser ):
 
 
     class LambdaexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2464,6 +2471,7 @@ class CPP14Parser ( Parser ):
 
 
     class LambdaintroducerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2522,6 +2530,7 @@ class CPP14Parser ( Parser ):
 
 
     class LambdacaptureContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2593,6 +2602,7 @@ class CPP14Parser ( Parser ):
 
 
     class CapturedefaultContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2642,6 +2652,7 @@ class CPP14Parser ( Parser ):
 
 
     class CapturelistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2734,6 +2745,7 @@ class CPP14Parser ( Parser ):
 
 
     class CaptureContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2792,6 +2804,7 @@ class CPP14Parser ( Parser ):
 
 
     class SimplecaptureContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2858,6 +2871,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitcaptureContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -2924,6 +2938,7 @@ class CPP14Parser ( Parser ):
 
 
     class LambdadeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3023,6 +3038,7 @@ class CPP14Parser ( Parser ):
 
 
     class PostfixexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3455,6 +3471,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypeidofexprContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3495,6 +3512,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypeidofthetypeidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3535,6 +3553,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExpressionlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3576,6 +3595,7 @@ class CPP14Parser ( Parser ):
 
 
     class PseudodestructornameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3703,6 +3723,7 @@ class CPP14Parser ( Parser ):
 
 
     class UnaryexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3891,6 +3912,7 @@ class CPP14Parser ( Parser ):
 
 
     class UnaryoperatorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -3952,6 +3974,7 @@ class CPP14Parser ( Parser ):
 
 
     class NewexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4087,6 +4110,7 @@ class CPP14Parser ( Parser ):
 
 
     class NewplacementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4138,6 +4162,7 @@ class CPP14Parser ( Parser ):
 
 
     class NewtypeidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4191,6 +4216,7 @@ class CPP14Parser ( Parser ):
 
 
     class NewdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4261,6 +4287,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoptrnewdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4367,6 +4394,7 @@ class CPP14Parser ( Parser ):
 
 
     class NewinitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4442,6 +4470,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeleteexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4533,6 +4562,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoexceptexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4589,6 +4619,7 @@ class CPP14Parser ( Parser ):
 
 
     class CastexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4663,6 +4694,7 @@ class CPP14Parser ( Parser ):
 
 
     class PmexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4759,6 +4791,7 @@ class CPP14Parser ( Parser ):
 
 
     class MultiplicativeexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4871,6 +4904,7 @@ class CPP14Parser ( Parser ):
 
 
     class AdditiveexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -4967,6 +5001,7 @@ class CPP14Parser ( Parser ):
 
 
     class ShiftexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5041,6 +5076,7 @@ class CPP14Parser ( Parser ):
 
 
     class ShiftoperatorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5090,6 +5126,7 @@ class CPP14Parser ( Parser ):
 
 
     class RelationalexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5218,6 +5255,7 @@ class CPP14Parser ( Parser ):
 
 
     class EqualityexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5314,6 +5352,7 @@ class CPP14Parser ( Parser ):
 
 
     class AndexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5387,6 +5426,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExclusiveorexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5460,6 +5500,7 @@ class CPP14Parser ( Parser ):
 
 
     class InclusiveorexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5533,6 +5574,7 @@ class CPP14Parser ( Parser ):
 
 
     class LogicalandexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5623,6 +5665,7 @@ class CPP14Parser ( Parser ):
 
 
     class LogicalorexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5713,6 +5756,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConditionalexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5789,6 +5833,7 @@ class CPP14Parser ( Parser ):
 
 
     class AssignmentexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5869,6 +5914,7 @@ class CPP14Parser ( Parser ):
 
 
     class AssignmentoperatorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -5945,6 +5991,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6018,6 +6065,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConstantexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6059,6 +6107,7 @@ class CPP14Parser ( Parser ):
 
 
     class StatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6230,6 +6279,7 @@ class CPP14Parser ( Parser ):
 
 
     class LabeledstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6349,6 +6399,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExpressionstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6402,6 +6453,7 @@ class CPP14Parser ( Parser ):
 
 
     class CompoundstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6460,6 +6512,7 @@ class CPP14Parser ( Parser ):
 
 
     class StatementseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6528,6 +6581,7 @@ class CPP14Parser ( Parser ):
 
 
     class SelectionstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6638,6 +6692,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConditionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6748,6 +6803,7 @@ class CPP14Parser ( Parser ):
 
 
     class IterationstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6914,6 +6970,7 @@ class CPP14Parser ( Parser ):
 
 
     class ForinitstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -6972,6 +7029,7 @@ class CPP14Parser ( Parser ):
 
 
     class ForrangedeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7032,6 +7090,7 @@ class CPP14Parser ( Parser ):
 
 
     class ForrangeinitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7090,6 +7149,7 @@ class CPP14Parser ( Parser ):
 
 
     class JumpstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7207,6 +7267,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclarationstatementContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7248,6 +7309,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclarationseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7316,6 +7378,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7444,6 +7507,7 @@ class CPP14Parser ( Parser ):
 
 
     class BlockdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7562,6 +7626,7 @@ class CPP14Parser ( Parser ):
 
 
     class AliasdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7636,6 +7701,7 @@ class CPP14Parser ( Parser ):
 
 
     class SimpledeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7730,6 +7796,7 @@ class CPP14Parser ( Parser ):
 
 
     class Static_assertdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7801,6 +7868,7 @@ class CPP14Parser ( Parser ):
 
 
     class EmptydeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7841,6 +7909,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributedeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7887,6 +7956,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -7978,6 +8048,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclspecifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8050,6 +8121,7 @@ class CPP14Parser ( Parser ):
 
 
     class StorageclassspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8108,6 +8180,7 @@ class CPP14Parser ( Parser ):
 
 
     class FunctionspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8160,6 +8233,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypedefnameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8200,6 +8274,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8268,6 +8343,7 @@ class CPP14Parser ( Parser ):
 
 
     class TrailingtypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8344,6 +8420,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypespecifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8416,6 +8493,7 @@ class CPP14Parser ( Parser ):
 
 
     class TrailingtypespecifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8488,6 +8566,7 @@ class CPP14Parser ( Parser ):
 
 
     class SimpletypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8701,6 +8780,7 @@ class CPP14Parser ( Parser ):
 
 
     class ThetypenameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8779,6 +8859,7 @@ class CPP14Parser ( Parser ):
 
 
     class DecltypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8857,6 +8938,7 @@ class CPP14Parser ( Parser ):
 
 
     class ElaboratedtypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -8987,6 +9069,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumnameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9027,6 +9110,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9115,6 +9199,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumheadContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9229,6 +9314,7 @@ class CPP14Parser ( Parser ):
 
 
     class OpaqueenumdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9305,6 +9391,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumkeyContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9374,6 +9461,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumbaseContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9420,6 +9508,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumeratorlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9493,6 +9582,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumeratordefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9558,6 +9648,7 @@ class CPP14Parser ( Parser ):
 
 
     class EnumeratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9598,6 +9689,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamespacenameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9656,6 +9748,7 @@ class CPP14Parser ( Parser ):
 
 
     class OriginalnamespacenameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9696,6 +9789,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamespacedefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9754,6 +9848,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamednamespacedefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9812,6 +9907,7 @@ class CPP14Parser ( Parser ):
 
 
     class OriginalnamespacedefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9885,6 +9981,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExtensionnamespacedefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -9959,6 +10056,7 @@ class CPP14Parser ( Parser ):
 
 
     class UnnamednamespacedefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10027,6 +10125,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamespacebodyContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10075,6 +10174,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamespacealiasContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10115,6 +10215,7 @@ class CPP14Parser ( Parser ):
 
 
     class NamespacealiasdefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10176,6 +10277,7 @@ class CPP14Parser ( Parser ):
 
 
     class QualifiednamespacespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10229,6 +10331,7 @@ class CPP14Parser ( Parser ):
 
 
     class UsingdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10320,6 +10423,7 @@ class CPP14Parser ( Parser ):
 
 
     class UsingdirectiveContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10401,6 +10505,7 @@ class CPP14Parser ( Parser ):
 
 
     class AsmdefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10461,6 +10566,7 @@ class CPP14Parser ( Parser ):
 
 
     class LinkagespecificationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10550,6 +10656,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributespecifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10618,6 +10725,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10696,6 +10804,7 @@ class CPP14Parser ( Parser ):
 
 
     class AlignmentspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10795,6 +10904,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributelistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10919,6 +11029,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributeContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -10972,6 +11083,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributetokenContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11029,6 +11141,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributescopedtokenContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11080,6 +11193,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributenamespaceContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11120,6 +11234,7 @@ class CPP14Parser ( Parser ):
 
 
     class AttributeargumentclauseContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11171,6 +11286,7 @@ class CPP14Parser ( Parser ):
 
 
     class BalancedtokenseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11245,6 +11361,7 @@ class CPP14Parser ( Parser ):
 
 
     class BalancedtokenContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11375,6 +11492,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitdeclaratorlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11448,6 +11566,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11501,6 +11620,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11571,6 +11691,7 @@ class CPP14Parser ( Parser ):
 
 
     class PtrdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11635,6 +11756,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoptrdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11792,6 +11914,7 @@ class CPP14Parser ( Parser ):
 
 
     class ParametersandqualifiersContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11891,6 +12014,7 @@ class CPP14Parser ( Parser ):
 
 
     class TrailingreturntypeContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -11949,6 +12073,7 @@ class CPP14Parser ( Parser ):
 
 
     class PtroperatorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12077,6 +12202,7 @@ class CPP14Parser ( Parser ):
 
 
     class CvqualifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12130,6 +12256,7 @@ class CPP14Parser ( Parser ):
 
 
     class CvqualifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12179,6 +12306,7 @@ class CPP14Parser ( Parser ):
 
 
     class RefqualifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12225,6 +12353,7 @@ class CPP14Parser ( Parser ):
 
 
     class DeclaratoridContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12278,6 +12407,7 @@ class CPP14Parser ( Parser ):
 
 
     class ThetypeidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12331,6 +12461,7 @@ class CPP14Parser ( Parser ):
 
 
     class AbstractdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12417,6 +12548,7 @@ class CPP14Parser ( Parser ):
 
 
     class PtrabstractdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12487,6 +12619,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoptrabstractdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12655,6 +12788,7 @@ class CPP14Parser ( Parser ):
 
 
     class AbstractpackdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12719,6 +12853,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoptrabstractpackdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12841,6 +12976,7 @@ class CPP14Parser ( Parser ):
 
 
     class ParameterdeclarationclauseContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12920,6 +13056,7 @@ class CPP14Parser ( Parser ):
 
 
     class ParameterdeclarationlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -12993,6 +13130,7 @@ class CPP14Parser ( Parser ):
 
 
     class ParameterdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13139,6 +13277,7 @@ class CPP14Parser ( Parser ):
 
 
     class FunctiondefinitionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13223,6 +13362,7 @@ class CPP14Parser ( Parser ):
 
 
     class FunctionbodyContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13326,6 +13466,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13394,6 +13535,7 @@ class CPP14Parser ( Parser ):
 
 
     class BraceorequalinitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13457,6 +13599,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitializerclauseContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13515,6 +13658,7 @@ class CPP14Parser ( Parser ):
 
 
     class InitializerlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13607,6 +13751,7 @@ class CPP14Parser ( Parser ):
 
 
     class BracedinitlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13685,6 +13830,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassnameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13742,6 +13888,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13806,6 +13953,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassheadContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13919,6 +14067,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassheadnameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -13972,6 +14121,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassvirtspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14012,6 +14162,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClasskeyContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14064,6 +14215,7 @@ class CPP14Parser ( Parser ):
 
 
     class MemberspecificationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14148,6 +14300,7 @@ class CPP14Parser ( Parser ):
 
 
     class MemberdeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14292,6 +14445,7 @@ class CPP14Parser ( Parser ):
 
 
     class MemberdeclaratorlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14365,6 +14519,7 @@ class CPP14Parser ( Parser ):
 
 
     class MemberdeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14494,6 +14649,7 @@ class CPP14Parser ( Parser ):
 
 
     class VirtspecifierseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14562,6 +14718,7 @@ class CPP14Parser ( Parser ):
 
 
     class VirtspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14611,6 +14768,7 @@ class CPP14Parser ( Parser ):
 
 
     class PurespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14647,8 +14805,7 @@ class CPP14Parser ( Parser ):
             self.match(CPP14Parser.Assign)
             self.state = 2073
             localctx.val = self.match(CPP14Parser.Octalliteral)
-            if((None if localctx.val is None else localctx.val.text).compareTo("0")!=0):
-                raise InputMismatchException(this)
+            if((None if localctx.val is None else localctx.val.text).compareTo("0")!=0) throw new InputMismatchException(this);
         except RecognitionException as re:
             localctx.exception = re
             self._errHandler.reportError(self, re)
@@ -14659,6 +14816,7 @@ class CPP14Parser ( Parser ):
 
 
     class BaseclauseContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14705,6 +14863,7 @@ class CPP14Parser ( Parser ):
 
 
     class BasespecifierlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14797,6 +14956,7 @@ class CPP14Parser ( Parser ):
 
 
     class BasespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14913,6 +15073,7 @@ class CPP14Parser ( Parser ):
 
 
     class ClassordecltypeContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -14983,6 +15144,7 @@ class CPP14Parser ( Parser ):
 
 
     class BasetypespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15024,6 +15186,7 @@ class CPP14Parser ( Parser ):
 
 
     class AccessspecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15076,6 +15239,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConversionfunctionidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15122,6 +15286,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConversiontypeidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15175,6 +15340,7 @@ class CPP14Parser ( Parser ):
 
 
     class ConversiondeclaratorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15228,6 +15394,7 @@ class CPP14Parser ( Parser ):
 
 
     class CtorinitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15274,6 +15441,7 @@ class CPP14Parser ( Parser ):
 
 
     class MeminitializerlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15359,6 +15527,7 @@ class CPP14Parser ( Parser ):
 
 
     class MeminitializerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15442,6 +15611,7 @@ class CPP14Parser ( Parser ):
 
 
     class MeminitializeridContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15499,6 +15669,7 @@ class CPP14Parser ( Parser ):
 
 
     class OperatorfunctionidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15545,6 +15716,7 @@ class CPP14Parser ( Parser ):
 
 
     class LiteraloperatoridContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15613,6 +15785,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplatedeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15675,6 +15848,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplateparameterlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15748,6 +15922,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplateparameterContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -15806,6 +15981,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypeparameterContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16017,6 +16193,7 @@ class CPP14Parser ( Parser ):
 
 
     class SimpletemplateidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16081,6 +16258,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplateidContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16184,6 +16362,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplatenameContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16224,6 +16403,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplateargumentlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16316,6 +16496,7 @@ class CPP14Parser ( Parser ):
 
 
     class TemplateargumentContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16384,6 +16565,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypenamespecifierContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16468,6 +16650,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExplicitinstantiationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16526,6 +16709,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExplicitspecializationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16582,6 +16766,7 @@ class CPP14Parser ( Parser ):
 
 
     class TryblockContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16634,6 +16819,7 @@ class CPP14Parser ( Parser ):
 
 
     class FunctiontryblockContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16699,6 +16885,7 @@ class CPP14Parser ( Parser ):
 
 
     class HandlerseqContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16752,6 +16939,7 @@ class CPP14Parser ( Parser ):
 
 
     class HandlerContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16814,6 +17002,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExceptiondeclarationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16916,6 +17105,7 @@ class CPP14Parser ( Parser ):
 
 
     class ThrowexpressionContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -16968,6 +17158,7 @@ class CPP14Parser ( Parser ):
 
 
     class ExceptionspecificationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17026,6 +17217,7 @@ class CPP14Parser ( Parser ):
 
 
     class DynamicexceptionspecificationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17089,6 +17281,7 @@ class CPP14Parser ( Parser ):
 
 
     class TypeidlistContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17181,6 +17374,7 @@ class CPP14Parser ( Parser ):
 
 
     class NoexceptspecificationContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17250,6 +17444,7 @@ class CPP14Parser ( Parser ):
 
 
     class TheoperatorContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17687,6 +17882,7 @@ class CPP14Parser ( Parser ):
 
 
     class LiteralContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17786,6 +17982,7 @@ class CPP14Parser ( Parser ):
 
 
     class BooleanliteralContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17835,6 +18032,7 @@ class CPP14Parser ( Parser ):
 
 
     class PointerliteralContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
@@ -17875,6 +18073,7 @@ class CPP14Parser ( Parser ):
 
 
     class UserdefinedliteralContext(ParserRuleContext):
+        __slots__ = 'parser'
 
         def __init__(self, parser, parent:ParserRuleContext=None, invokingState:int=-1):
             super().__init__(parent, invokingState)
