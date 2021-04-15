@@ -25,58 +25,58 @@ class TokeNizer():
             return
 
         if self.LANGUAGE == "Python":
-            from .grammars.Python.Python3Parser import Python3Parser as Parser
-            from .grammars.Python.Python3Lexer import Python3Lexer as Lexer
+            from tokenizer.grammars.Python.Python3Parser import Python3Parser as Parser
+            from tokenizer.grammars.Python.Python3Lexer import Python3Lexer as Lexer
             self.IDENTIFIER_TAG = "NAME"
             self.STRING_TAG = "STRING"
             self.NUMBER_TAG = "NUMBER"
             self.VOCABULARY = Parser.symbolicNames
         elif self.LANGUAGE == "Java":
-            from .grammars.Java.JavaParser import JavaParser as Parser
-            from .grammars.Java.JavaLexer import JavaLexer as Lexer
+            from tokenizer.grammars.Java.JavaParser import JavaParser as Parser
+            from tokenizer.grammars.Java.JavaLexer import JavaLexer as Lexer
             self.IDENTIFIER_TAG = "IDENTIFIER"
             self.STRING_TAG = "STRING_LITERAL"
             self.NUMBER_TAG = "DECIMAL_LITERAL"
             self.VOCABULARY = Parser.symbolicNames
         elif self.LANGUAGE == "JavaScript":
-            from .grammars.JavaScript.JavaScriptParser import JavaScriptParser as Parser
-            from .grammars.JavaScript.JavaScriptLexer import JavaScriptLexer as Lexer
+            from tokenizer.grammars.JavaScript.JavaScriptParser import JavaScriptParser as Parser
+            from tokenizer.grammars.JavaScript.JavaScriptLexer import JavaScriptLexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
             self.IDENTIFIER_TAG = "Identifier"
             self.STRING_TAG = "StringLiteral"
             self.NUMBER_TAG = "DecimalLiteral"
         elif self.LANGUAGE == "CPP":
-            from .grammars.CPP.CPP14Parser import CPP14Parser as Parser
-            from .grammars.CPP.CPP14Lexer import CPP14Lexer as Lexer
+            from tokenizer.grammars.CPP.CPP14Parser import CPP14Parser as Parser
+            from tokenizer.grammars.CPP.CPP14Lexer import CPP14Lexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
             self.IDENTIFIER_TAG = "Identifier"
             self.STRING_TAG = "Stringliteral"
             self.NUMBER_TAG = "Integerliteral"
         elif self.LANGUAGE == "PHP":
-            from .grammars.PHP.PhpParser import PhpParser as Parser
-            from .grammars.PHP.PhpLexer import PhpLexer as Lexer
+            from tokenizer.grammars.PHP.PhpParser import PhpParser as Parser
+            from tokenizer.grammars.PHP.PhpLexer import PhpLexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
             self.IDENTIFIER_TAG = "VarName"
             self.STRING_TAG = "StringPart"
             self.NUMBER_TAG = "Decimal"
         elif self.LANGUAGE == "Dart":
-            from .grammars.Dart.Dart2Parser import Dart2Parser as Parser
-            from .grammars.Dart.Dart2Lexer import Dart2Lexer as Lexer
+            from tokenizer.grammars.Dart.Dart2Parser import Dart2Parser as Parser
+            from tokenizer.grammars.Dart.Dart2Lexer import Dart2Lexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
             self.IDENTIFIER_TAG = "IDENTIFIER"
             self.STRING_TAG = "SingleLineString"
             self.NUMBER_TAG = "NUMBER"
         elif self.LANGUAGE == "R":
-            from .grammars.R.RParser import RParser as Parser
-            from .grammars.R.RLexer import RLexer as Lexer
+            from tokenizer.grammars.R.RParser import RParser as Parser
+            from tokenizer.grammars.R.RLexer import RLexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
             self.IDENTIFIER_TAG = "ID"
             self.STRING_TAG = "STRING"
             self.NUMBER_TAG = "INT"
         else:
             print("Unknown Language, so solve as Python")
-            from .grammars.Python.Python3Parser import Python3Parser as Parser
-            from .grammars.Python.Python3Lexer import Python3Lexer as Lexer
+            from tokenizer.grammars.Python.Python3Parser import Python3Parser as Parser
+            from tokenizer.grammars.Python.Python3Lexer import Python3Lexer as Lexer
             self.VOCABULARY = Parser.symbolicNames
 
         self.Parser = Parser
